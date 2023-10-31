@@ -6,28 +6,23 @@ public class Camscale : MonoBehaviour
 {
     private void Start()
     {
-        SetResolution();
-    }
-
-    public void SetResolution()
-    {
-        int setWidth = 1280;
-        int setHeight = 720;
-
-        int deviceWidth = Screen.width;
-        int deviceHeight = Screen.height;
-
-        Screen.SetResolution(setWidth, (int)(((float)deviceHeight / deviceWidth) * setWidth), true);
-
-        if((float)setWidth / setHeight < (float)deviceWidth / deviceHeight)
+        Screen.SetResolution(1920, 1080, true);
+        Camera camera = GetComponent<Camera>();
+        Rect rect = camera.rect;
+        float scaleheight = ((float)Screen.width / Screen.height) / ((float)16 / 9); // (가로 / 세로)
+        float scalewidth = 1f / scaleheight;
+        if (scaleheight < 1)
         {
-            float newWidth = ((float)setWidth / setHeight) / ((float)deviceWidth / deviceHeight);
-            Camera.main.rect = new Rect((1f - newWidth) / 2f, 0f, newWidth, 1f);
+            rect.height = scaleheight;
+            rect.y = (1f - scaleheight) / 2f;
         }
         else
         {
-            float newHeight = ((float)deviceWidth / deviceHeight) / ((float)setWidth / setHeight);
-            Camera.main.rect = new Rect(0f, (1f - newHeight) / 2f, 1f, newHeight);
+            rect.width = scalewidth;
+            rect.x = (1f - scalewidth) / 2f;
         }
+        camera.rect = rect;
     }
+
+    void OnPreCull() => GL.Clear(true, true, Color.black);
 }

@@ -20,9 +20,9 @@ public class LevelMenu : MonoBehaviour
             buttons[i].interactable = true;
         }
     }
-    public void OpenStage(int Stageid)
+    public void OpenStage(int StageId)
     {
-        string StageName = "Stage " + Stageid;
+        string StageName = "Stage " + StageId;
         SceneManager.LoadScene(StageName);
     }
 }

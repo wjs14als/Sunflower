@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameState currentGameState = GameState.menu;
+    public GameObject gameover;
 
     private void Awake()
     {
@@ -20,14 +21,12 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-
+        if(HpSystem.hp == 0)
+        {
+            Time.timeScale = 0;
+            gameover.SetActive(true);
+        }
     }
-
-    public void BackToMenu()
-    {
-
-    }
-
     private void Start()
     {
         Application.targetFrameRate = 60;
@@ -45,6 +44,6 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        
+        GameOver();
     }
 }

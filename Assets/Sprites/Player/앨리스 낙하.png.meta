@@ -152,12 +152,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_0"
       rect:
         serializedVersion: 2
-        x: 14
-        y: 193
-        width: 42
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_1"
       rect:
         serializedVersion: 2
-        x: 79
-        y: 199
-        width: 43
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_2"
       rect:
         serializedVersion: 2
-        x: 142
-        y: 207
-        width: 44
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_3"
       rect:
         serializedVersion: 2
-        x: 208
-        y: 213
-        width: 44
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_4"
       rect:
         serializedVersion: 2
-        x: 16
-        y: 149
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_5"
       rect:
         serializedVersion: 2
-        x: 82
-        y: 149
-        width: 43
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_6"
       rect:
         serializedVersion: 2
-        x: 161
-        y: 184
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_7"
       rect:
         serializedVersion: 2
-        x: 222
-        y: 186
-        width: 7
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_8"
       rect:
         serializedVersion: 2
-        x: 146
-        y: 149
-        width: 43
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_9"
       rect:
         serializedVersion: 2
-        x: 210
-        y: 149
-        width: 43
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,12 +362,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_10"
       rect:
         serializedVersion: 2
-        x: 18
-        y: 85
-        width: 43
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_11"
       rect:
         serializedVersion: 2
-        x: 81
-        y: 85
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,12 +404,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_12"
       rect:
         serializedVersion: 2
-        x: 145
-        y: 85
-        width: 44
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,12 +425,12 @@ TextureImporter:
       name: "\uC568\uB9AC\uC2A4 \uB099\uD558_13"
       rect:
         serializedVersion: 2
-        x: 209
-        y: 85
-        width: 44
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -438,69 +438,6 @@ TextureImporter:
       bones: []
       spriteID: c9ba280f3290a4f428160c1f4a906a4a
       internalID: -2078500183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uC568\uB9AC\uC2A4 \uB099\uD558_14"
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 120
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84659dc3dfa541d48af105b825bc6f0d
-      internalID: -968494089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uC568\uB9AC\uC2A4 \uB099\uD558_15"
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 21
-        width: 43
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 618cf1d4f8a90a541b8136990ea081b0
-      internalID: -755440228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uC568\uB9AC\uC2A4 \uB099\uD558_16"
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 21
-        width: 43
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79c835b826d92304f998ea430f668563
-      internalID: -1173853614
       vertices: []
       indices: 
       edges: []
@@ -522,9 +459,6 @@ TextureImporter:
       "\uC568\uB9AC\uC2A4 \uB099\uD558_11": 1896410235
       "\uC568\uB9AC\uC2A4 \uB099\uD558_12": -1166965946
       "\uC568\uB9AC\uC2A4 \uB099\uD558_13": -2078500183
-      "\uC568\uB9AC\uC2A4 \uB099\uD558_14": -968494089
-      "\uC568\uB9AC\uC2A4 \uB099\uD558_15": -755440228
-      "\uC568\uB9AC\uC2A4 \uB099\uD558_16": -1173853614
       "\uC568\uB9AC\uC2A4 \uB099\uD558_2": 1585482914
       "\uC568\uB9AC\uC2A4 \uB099\uD558_3": -1625884201
       "\uC568\uB9AC\uC2A4 \uB099\uD558_4": 1715236504

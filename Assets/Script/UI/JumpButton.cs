@@ -5,27 +5,29 @@ using UnityEngine.EventSystems;
 
 public class JumpButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public bool check;
     public PlayerMain pMain;
     public void OnPointerDown(PointerEventData eventData)
     {
-        check = true;
+        pMain.jumpButton = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        check = false;
+        pMain.jumpButton = false;
     }
 
     void Update()
     {
-        if (check == true)
+        if (pMain.jumpButton == true)
         {
             pMain.JumpTo();
         }
-        else if (check == false)
+        
+        if (pMain.jumpButton == false)
         {
             pMain.isJumping = false;
+            pMain.jumpNum = 0;
+            pMain.jumpCounter = 0;
         }
     }
 }

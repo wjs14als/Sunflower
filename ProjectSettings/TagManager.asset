@@ -9,18 +9,24 @@ TagManager:
   - Platformcheck
   - Trap
   - Ground
-  - PlayerhitBox
   - Projectile
   - Rope
+  - AirLine
+  - CamStop
+  - notColl
+  - SunGoat
+  - PlayerhitBox
+  - RopeCheck
+  - walnutArea
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Camera
   - Water
   - UI
   - Player
-  - PlayerhitBox
+  - 
   - Monster
   - Trap
   - Ground
@@ -30,11 +36,11 @@ TagManager:
   - 
   - Damaged
   - Projectile
+  - CamStop
   - 
+  - AirLine
   - 
-  - 
-  - 
-  - 
+  - notColl
   - 
   - 
   - 
